@@ -1,0 +1,17 @@
+@media screen and (max-width: 419px){
+    .recomm-text h3 {
+        font-size: 1.3rem;
+    }
+    .recomm-text .discount {
+        font-size: 1.1rem;
+    }
+    .recomm-text .date {
+        font-size: 1.1rem;
+    }
+    .recomm-text .detail {
+        font-size: 1.1rem;
+    }
+    .inner .title-detail i {
+        bottom: 15%;
+    }
+}

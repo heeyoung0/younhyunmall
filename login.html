@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>윤현몰-login</title>
+    
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="header-popup clear">
+                <a href="#">
+                    <img src="img/header-top-banner.jpg" alt="상단띠배너" title="상단띠배너">
+                    <span><img src="img/top_close.png" alt=""></span>
+                </a>
+            </div>
+            <div class="header-nav">
+                <div class="header-shadow">
+                    <h1 class="hedaer-logo">
+                        <a href="index.html">
+                            <img src="img/header-logo.jpg" alt="YOUNHYUNMALL" title="YOUNHYUNMALL">
+                        </a>
+        
+                    </h1>
+                    <ul class="header-menu">
+                        <li class="depth1">
+                            <a href="#" class="line gnb">타일</a>
+                            <div class="depth2_bg">
+                                <ul class="hide-menu depth2_1">
+                                    <li>
+                                        <a href="#">공간별</a>
+                                        <ul>
+                                            <li><a href="#">거실 / 아트월</a></li>
+                                            <li><a href="#">욕실</a></li>
+                                            <li><a href="#">주방</a></li>
+                                            <li><a href="#">현관 / 발코니</a></li>
+                                            <li><a href="#">상업공간</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">크기별</a>
+                                        <ul>
+                                            <li><a href="#">~300</a></li>
+                                            <li><a href="#">~600</a></li>
+                                            <li><a href="#">~900</a></li>
+                                            <li><a href="#">~1200</a></li>
+                                            <li><a href="#">1200~</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">색상별</a>
+                                        <ul>
+                                            <li><a href="#">화이트</a></li>
+                                            <li><a href="#">베이지</a></li>
+                                            <li><a href="#">그레이</a></li>
+                                            <li><a href="#">기타 색상</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">샘플신청</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="depth1">
+                            <a href="#" class="line gnb">빅슬랩</a>
+                            <div class="depth2_bg">
+                                <ul class="hide-menu depth2_2">
+                                    <li>
+                                        <a href="#">두께 6mm</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">두께 12mm</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="depth1">
+                            <a href="#" class="line gnb">기타제품</a>
+                            <div class="depth2_bg">
+                                <ul class="hide-menu depth2_2 depth3">
+                                    <li>
+                                        <a href="#">부자재</a>
+                                        <ul>
+                                            <li><a href="#">줄눈</a></li>
+                                            <li><a href="#">접착제</a></li>
+                                            <li><a href="#">시멘트</a></li>
+                                            <li><a href="#">기타</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">도기</a>
+                                        <ul>
+                                            <li><a href="#">세면대</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="depth1"><a href="#" class="line">신제품</a></li>
+                        <li class="depth1"><a href="#" class="line">할인</a></li>
+                        <li class="depth1"><a href="#" class="line"><span class="color">PREMIUM</span></a></li>
+                        <li class="depth1"><a href="#" class="line">매거진</a></li>
+                        <li class="depth1"><a href="#" class="line">이벤트</a></li>
+                        </ul>
+                    <ul class="right-menu">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#"><img src="img/icon_search_btn.png" alt="search-icon"></a></li>
+                        <li>
+                            <a href="#"><img src="img/icon_cart_btn.png" alt="cart-icon"></a>
+                            <span>0</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bg_gnb"></div>
+        </header>
+    <div class="shadow-inner"></div>
+    <!-- header -->
+    <section id="login">
+        <div class="inner">
+            <div class="location">
+                <a href="index.html">홈&nbsp;</a>
+                <span>&gt; &nbsp;로그인</span>
+            </div>
+            <div class="login-contents">
+                <div class="login-text">
+                    <h1>로그인</h1>
+                </div>
+                <div class="login-wrap">
+                    <div class="login-left-cont">
+                        <div class="login-member">
+                            <a href="#" class="member weight run">회원 로그인</a>
+                            <a href="#" class="member non">비회원 주문조회</a>
+                        </div>
+                        <div class="login-tab run">
+                            <form>
+                                <div class="login-box">
+                                    <input type="text" id="myId" placeholder="아이디">
+                                    <input type="password" id="myPw" placeholder="비밀번호" autocomplete="off">
+                                </div>
+                                <span class="remember-id">
+                                    <input type="checkbox" id="checkId">
+                                    <label for="checkId"><span></span></label>
+                                </span>
+                                <span>아이디 저장</span>
+                                <button type="submit" id="btnLogin">로그인</button>
+                            </form>
+                            <div class="sns-login">
+                                <p class="sns-text">간편 로그인</p>
+                                <div id="naverIdLogin" style="display: none;"></div>
+                                <div class="sns-icon">
+                                    <a href="javascript:naverLogin();" id="naverLogin">
+                                        <img src="img/naver-login.jpg" alt="네이버 로그인">
+                                    </a>
+                                    <a href="javascript:kakaoLogin();">
+                                        <img src="img/kakao-login.jpg" alt="카카오 로그인">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- login-tab run-->
+                        <div class="login-tab">
+                            <form>
+                                <div class="login-box">
+                                    <input type="text" id="orderName" placeholder="주문자명">
+                                    <input type="text" id="orderNum" placeholder="주문번호">
+                                </div>
+                                <div class="non-info">
+                                    <p class="info-text"><i></i>주문번호와 비밀번호를 잊으신 경우, 고객센터로 문의하여 주시기 바랍니다.</p>
+                                </div>
+                                <button type="submit" id="btnInto">주문 조회하기</button>
+                            </form>
+                        </div>
+                        <!-- login-tab -->
+                    </div>
+                    <!-- login-left-cont -->
+                    <div class="join-right-cont">
+                        <div class="join">
+                            <p class="bold-text">
+                                윤현상재 신규 회원가입
+                            </p>
+                            <p class="gray-text">
+                                윤현상재 온라인몰 회원가입 후 다양한 혜택과 소식을 만나보세요.
+                            </p>
+                                <button type="button" id="btnJoinMember">회원가입</button>
+                        </div>
+                        <div class="find">
+                            <p class="bold-text">
+                                아이디/비밀번호 찾기
+                            </p>
+                            <p class="gray-text">
+                                간단한 정보를 입력 후 정보를 찾을 수 있습니다.
+                            </p>
+                            <button type="button" id="btnFindId" class="btnFind">아이디 찾기</button>
+                            <button type="button" id="btnFindPwd" class="btnFind">비밀번호 찾기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- login-contents -->
+        </div>
+        <!-- inner -->
+    </section>
+    <!-- login -->
+    <footer>
+        <div class="inner">
+            <div class="footer-top">
+                <div class="footer-top-introduce">
+                    <figure><img src="img/footer-logo.png" alt="footer 로고"></figure>
+                    <p class="name">(주)윤현상재 <span>|</span> 대표. 김훈석</p>
+                    <p class="address">주소. 서울특별시 강남구 학동로26길 14 윤현상재 <span>|</span> 사업자등록번호. 211-86-14165</p>
+                    <p class="e-mail">이메일. <a href="mailto:mall@younhyunmall.com">mall@younhyunmall.com</a> <span>|</span> 팩스. 02-541-7919</p>
+                    <p class="information">개인정보관리책임. 황민우 <span>|</span> 통신판매업자. 제 2017-서울강남-00045호</p>
+                </div>
+                    <div class="footer-top-cs">
+                        <strong>고객센터</strong>
+                        <h3>1855-0145</h3>
+                        <p>* 평일 오전 9시 - 오후 6시 <br>* 토요일 및 공휴일 오전 9시 - 오후 5시 <br>* 일요일 휴무</p>
+                        <a href="#" class="border">카카오톡 문의</a>
+                        <a href="#" class="border">1:1 문의</a>
+                    </div>
+                    <div class="footer-top-showRoom">
+                        <strong>논현동 본사 쇼룸</strong>
+                        <p><span class="day">평일</span><span class="time">오전 9시 - 오후 6시</span></p>
+                        <p><span class="day">토요일 및 공휴일</span><span class="time">오전 9시 - 오후 5시</span></p>
+                        <p><span class="day">일요일</span><span class="time">휴무</span></p>
+                        <a href="#" class="location">위치 확인하기 &gt;</a>
+                    </div>
+                    <div class="footer-top-logistics clear">
+                        <strong>경기 광주 물류센터</strong>
+                        <p><span class="day">평일</span><span class="time">오전 9시 - 오후 5시</span></p>
+                        <p><span class="day">토요일 및 공휴일</span><span class="time">오전 9시 - 오후 2시</span></p>
+                        <p><span class="day">일요일</span><span class="time">휴무</span></p>
+                        <a href="#" class="location">위치 확인하기 &gt;</a>
+                    </div>
+                </div>
+            <!-- footer-top -->
+            <div class="footer-middle">
+                <p class="copy">COPYRIGHT&copy; YOUNHYUN TRANDING. ALL RIGHTS RESERVED. <br>HOSTING BY NHN COMMERCE.</p>
+                <p class="icon"><a href="#" class="youtube"></a><a href="#" class="insta"></a><a href="#" class="kakao"></a></p>
+            </div>
+            <!-- footer-middle -->
+            <div class="footer-bottom">
+                <div class="btm-left">
+                    <p>고객님의 안전거래를 위해 현금 등으로 결제 시 토스페이먼츠 구매안전 서비스를 이용하실 수 있습니다.</p>
+                </div>
+                <div class="btm-center">
+                    <ul>
+                        <li><a href="#">윤현상재 소개</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이용안내</a></li>
+                        <li><a href="#">사업자정보확인</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul class="hide-site">
+                        <li><a href="#">Space B-E</a></li>
+                        <li><a href="#">윤현상재</a></li>
+                    </ul>
+                    <p class="family-site">패밀리 사이트 <i></i></p>
+                </div>
+            </div>
+        </div>
+        <!-- footer-inner -->
+            </footer>
+    </div>
+    <!-- wrap -->
+    <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <!-- <script src="https://static.nid.naver.com/js/naveridlogin_js_sdk_2.0.2.js" charset="utf-8"></script> -->
+    <script src="js/naveridlogin_js_sdk_2.0.2.js"></script>
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/login.js"></script>
+    
+</body>
+</html>

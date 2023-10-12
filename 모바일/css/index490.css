@@ -1,0 +1,29 @@
+@media screen and (max-width: 490px){
+    .inner h2 span {font-size: 1.2rem; padding-left: 1.167em;}
+    .space-title .small {margin-bottom: 0.714em;}
+    .channel {
+        position: relative;
+    }
+    .channel-title {position: static;}
+    .channel-title .title-detail i {
+    background-size: contain;
+    top: 35%; right: 12px;
+    width: 20px; height: 20px;
+    }
+    .channel .insta-official {
+        margin: 1.154em 0;
+    }
+    /* .chSlide .chBanner {
+        width: 100%;
+        height: 100% !important;
+    }
+    .chSlide .chBanner .swiper-slide {
+        width: 200px;
+        height: 200px;
+    }
+    .chSlide .chBanner .swiper-slide img {
+        width: 200px;
+        height: 10vh;
+    } */
+    
+}
